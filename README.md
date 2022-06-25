@@ -18,3 +18,4 @@ https://sspspencer.github.io/code-quiz/
 
 Spencer Pichette 
 
+![CaptureCodeQuiz](https://user-images.githubusercontent.com/92232513/175779413-f1ddb7cb-ba1c-49d4-b756-744e1e935fd2.PNG)
