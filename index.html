@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <div>
+      <!-- section to hold highscore and timer -->
+      <section class="top-row">
+        <!-- highscore -->
+        <div id="hisghscore">
+          <a href="#" id="view-highscore">View High Score</a>
+        </div>
+        <!-- timer -->
+        <div id="timer">Time: <span id="time-left">0</span></div>
+      </section>
+    </div>
+    <div id="quiz-container">
+      <main>
+        <!-- start -->
+        <div id="start">
+          <h1 id="description-question">Coding quiz</h1>
+          <p id="quiz-descripton">
+            Try to answer the following code-related questions within the time
+            limit. Keep in mind that the incorrect answers will penalize your
+            score/time by ten seconds!
+          </p>
+          <form id="initial-form" action="" style="display: none">
+            <label for="initials">Enter Initials:</label>
+            <input type="text" id="initials" name="initials" />
+            <input type="submit" value="Submit" class="button" />
+          </form>
+          <button type="button" id="start-button" class="button">
+            Start Quiz
+          </button>
+        </div>
+        <!--question container  -->
+        <div id="questions" style="display: none">
+          <p id="questionTitle"></p>
+          <div id="btn-container"></div>
+          <p id="rightWrong"></p>
+        </div>
+        <div id="end-page" style="display: none">
+          <button type="button" id="go-back" class="button">Go back</button>
+          <button type="button" id="clear-highscores" class="button">
+            Clear high scores
+          </button>
+        </div>
+      </main>
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
